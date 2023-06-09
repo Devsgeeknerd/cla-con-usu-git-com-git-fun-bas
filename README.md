@@ -1,32 +1,39 @@
-# SASS
+<!-- Título -->
+# Configurando Usuário no Git
 
-***Aulas:***
+***Conteúdo da Aula:***
 
-- [ ] Introdução.
-- [ ] Instalando o Sass.
-- [ ] Usando o Sass.
-- [ ] Usando o Watch no Sass.
-- [ ] Variáveis.
-- [ ] Grupo de Elementos.
-- [ ] Importando Outros Arquivos.
-- [ ] Mixin.
-- [ ] Expandindo Propriedades.
-- [ ] Operações Matemáticas.
-- [ ] If + For.
-- [ ] Hover.
+Para que os commits feitos possuam nosso nome e e-mail em seu escopo, precisamos realizar esta configuração.
 
-## INFORMAÇÕES
+Para isso, no terminal (macOS ou Linux) ou Git Bash (Windows), digite os seguintes comandos:
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=Devsgeeknerd.sass-front-end-zp "Total de Visitas")
+```powershell
+git config --global user.name "SEU NOME"
+```
+
+> Para configurar o nome do usuário.
+
+```powershell
+git config --global user.email "SEU EMAIL"
+```
+
+> Para configurar o e-mail.
+
+Com isso, todos os commits feitos no computador terão nosso e-mail e nome como autores.
+
+<!-- Informações -->
+## &#8505; Informações
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fcla-con-usu-git-com-git-fun-bas&label=Visitantes&labelColor=%23700070&labelStyle=none&countColor=%23000fff&style=plastic&color=%23ffffff "Total de Visitantes")
 &nbsp;
-![followrs](https://img.shields.io/github/followers/Devsgeeknerd?style=social "Total de Seguidores")
+![Followers](https://img.shields.io/github/followers/Devsgeeknerd?style=p&label=Seguidores&labelColor=800080&color=000fff "Total de Seguidores")
 &nbsp;
-![watchers](https://img.shields.io/github/watchers/Devsgeeknerd/sass-front-end-zp?style=social "Total de Observadores")
+![Watchers](https://img.shields.io/github/watchers/Devsgeeknerd/cla-con-usu-git-com-git-fun-bas?style=p&label=Observadores&labelColor=800080&color=000fff "Total de Observadores")
 &nbsp;
-![stars](https://img.shields.io/github/stars/Devsgeeknerd/sass-front-end-zp?style=social "Total de Estrelas Recebidas")
+![Stars](https://img.shields.io/github/stars/Devsgeeknerd/cla-con-usu-git-com-git-fun-bas?style=p&label=Estrelas&labelColor=800080&color=000fff "Total de Estrelas")
 &nbsp;
-![forks](https://img.shields.io/github/forks/Devsgeeknerd/sass-front-end-zp?style=social "Total de Forks")
+![Forks](https://img.shields.io/github/forks/Devsgeeknerd/cla-con-usu-git-com-git-fun-bas?style=p&label=Bifurcações&labelColor=800080&color=000fff "Total de Bifurcações")
 &nbsp;
-![repo size](https://img.shields.io/github/repo-size/Devsgeeknerd/sass-front-end-zp?style=social "Tamanho do Repositório")
+![Repo Size](https://img.shields.io/github/repo-size/Devsgeeknerd/cla-con-usu-git-com-git-fun-bas?style=p&label=Tamanho&labelColor=800080&color=000fff "Tamanho do Repositório")
 &nbsp;
-![license](https://img.shields.io/github/license/Devsgeeknerd/sass-front-end-zp?style=social "Licença do Repositório")
+![License](https://img.shields.io/github/license/Devsgeeknerd/cla-con-usu-git-com-git-fun-bas?style=p&label=Licença&labelColor=800080&color=000fff "Licença do Repositório")
